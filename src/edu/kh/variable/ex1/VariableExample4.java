@@ -21,6 +21,7 @@ public class VariableExample4 {
 		System.out.println("temp:" + temp);
 		System.out.println("num:" + num);
 		// 실수 -> 정수형 변환시 소수점 버림 처리(데이터 손실 때문에)
+		System.out.println("temp:" + temp);//수정수정
 		
 		
 	}
