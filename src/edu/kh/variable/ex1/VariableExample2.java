@@ -39,7 +39,7 @@ public class VariableExample2 {
 		// + 자료형에 따라 리터럴 표기법이 다름.
 		
 		long longNumber = 10000000000L; // 소문자 대문자 상관 없음 
-		// The literal 10000000000 of type int is out range
+		// The literal 10000000000 of type it(인트임 오류나서,,) is out range
 		// 100억 이라는 값은 범위를 벗어남
 		// 뒤에 L을 붙여줌으로써 long 자료형인것을 나타냄
 		
@@ -48,7 +48,7 @@ public class VariableExample2 {
 		float floatNumber = 1.2345f; // 소문자 대문자 상관 없음
 		double doubleNumber =3.141592;
 		// d를 뒤에 쓸 수는 있다. => 3.141592d;
-		// 실수형은 flot, double 두 개밖에 없기 때문에
+		// 실수형은 float, double 두 개밖에 없기 때문에
 		// 자바는 double을 리터럴 안붙이고 쓰는애로 정함
 		
 		// 문자형 리터럴 표기법: ' ' (홑따옴표) -> 문자 하나
@@ -116,9 +116,7 @@ public class VariableExample2 {
 		  * 
 		  * */
 		 
-		 final double PI_VALUE = 3.14;
-		 PI_VALUE = 2.3; // 에러! 대입불가
-		 
+		
 		 
 		
 	}
