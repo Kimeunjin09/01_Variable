@@ -44,10 +44,6 @@ public class ScannerExample1 {
 		System.out.println(input5);
 		
 		
-		
-		
-		
-		
 	}
 
 }
