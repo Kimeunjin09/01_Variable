@@ -42,8 +42,5 @@ public class ScannerExample1 {
 		System.out.print("입력1: ");
 		String input5 = sc.nextLine();
 		System.out.println(input5);
-		
-		
 	}
-
 }

@@ -13,7 +13,6 @@ public class VariableExample3 {
 		 * --> 이런 상황을 해결하기 위해 필요한 기술이 형변환.
 		 * 
 		 * 자동 형변환 / 강제 형변환이 존재.
-		 *
 		 * */
 	
 		// 자동 형병환
@@ -46,8 +45,5 @@ public class VariableExample3 {
 		char ch1 = '각';
 		int i4 = ch1;
 		System.out.println("i4:" + i4);
-		
-		
-		
-				}
+		}
 }

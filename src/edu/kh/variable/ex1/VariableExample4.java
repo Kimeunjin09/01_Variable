@@ -2,6 +2,7 @@ package edu.kh.variable.ex1;
 
 public class VariableExample4 {
 	public static void main (String [] args) {
+		
 	/* 강제 형변환
 	 * -기존 자료형을 원하는 자료형으로 강제 변환시키는 것
 	 * 
@@ -13,7 +14,6 @@ public class VariableExample4 {
 	 *
 	 * ex) double temp =3.14;
 	 * 		int num = (int)temp;
-	 * 
 	 * */	
 		double temp = 3.14; // temp는 나중에 자료구조할 때 더블삽일을 하는데 빈공간?(범위데이터)만들 때
 		int num = (int)temp;
@@ -22,7 +22,5 @@ public class VariableExample4 {
 		System.out.println("num:" + num);
 		// 실수 -> 정수형 변환시 소수점 버림 처리(데이터 손실 때문에)
 		System.out.println("temp:" + temp);//수정수정
-		
-		
 	}
 }
